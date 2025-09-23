@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алковрач</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="logo">
+          <img src="../image/logo.png" alt="Детокс">
+        </div>
+        <nav class="nav">
+          <a href="#" class="nav-link">Услуги</a>
+          <a href="#" class="nav-link active">Этапы лечения</a>
+          <a href="#" class="nav-link">О нас</a>
+          <a href="#" class="nav-link">Отзывы</a>
+          <a href="#" class="nav-link">Контакты</a>
+        </nav>
+        <div class="header-contact">
+          <div class="phone">8 (906) 180-00-41</div>
+          <button class="btn btn-blue">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<section class="hero">
+
+  <div class="container">
+    <div class="hero-content">
+      <h1>Срочный вызов врача-нарколога</h1>
+      <div class="features">
+        <div class="feature">
+          <img src="img/icon-check.svg" alt="Иконка">
+          <p>Сохраняем анонимность, не требуем паспорт и не ставим на учёт</p>
+        </div>
+        <div class="feature">
+          <img src="img/icon-check.svg" alt="Иконка">
+          <p>Помощь квалифицированного врача на дому</p>
+        </div>
+        <div class="feature">
+          <img src="img/icon-check.svg" alt="Иконка">
+          <p>Приедем на адрес за 20 минут</p>
+        </div>
+        <div class="feature">
+          <img src="img/icon-check.svg" alt="Иконка">
+          <p>Первичная консультация - бесплатно</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="btn btn-blue open-modal">Получить помощь</button>
+        <button class="btn btn-white open-modal">Заказать звонок</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Оставьте ваши данные</h2>
+    <p>Мы вам перезвоним в ближайшее время</p>
+    <form id="callbackForm">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="tel" name="phone" placeholder="Ваш телефон" required>
+      <button type="submit" class="btn btn-blue">Отправить</button>
+    </form>
+  </div>
+</div>
+
+
+
+  <!-- Услуги -->
+<section class="services">
+  <div class="container">
+    <h2>Наши услуги</h2>
+    <div class="service-cards">
+      <!-- Карточка 1 -->
+      <div class="service-card">
+        <img src="../image/image1.jpg" alt="Стандартная терапия">
+        <h3>Стандартная терапия</h3>
+        <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении.</p>
+        <div class="price-button">
+          <span>от 2400 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+
+      <!-- Карточка 2 -->
+      <div class="service-card">
+        <img src="../image/image2.jpg" alt="Усиленная терапия">
+        <h3>Усиленная терапия</h3>
+        <p>Рекомендуется для облегчения похмелья и прерывания запоев длительностью до недели.</p>
+        <div class="price-button">
+          <span>от 5800 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+
+      <!-- Карточка 3 -->
+      <div class="service-card">
+        <img src="../image/image3.jpg" alt="Восстановление+">
+        <h3>Восстановление+</h3>
+        <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении.</p>
+        <div class="price-button">
+          <span>от 15 800 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+
+      <!-- Карточка 4 -->
+      <div class="service-card">
+        <img src="../image/image5.jpg" alt="Максимальная терапия">
+        <h3>Максимальная терапия</h3>
+        <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении.</p>
+        <div class="price-button">
+          <span>от 18 800 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+
+      <!-- Карточка 5 -->
+      <div class="service-card">
+        <img src="../image/image6.jpg" alt="Кодирование+">
+        <h3>Кодирование+</h3>
+        <p>Рекомендуется для облегчения похмелья и прерывания запоев длительностью до недели.</p>
+        <div class="price-button">
+          <span>от 3200 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+
+      <!-- Карточка 6 -->
+      <div class="service-card">
+        <img src="../image/immage4.jpg" alt="Выезд нарколога на дом">
+        <h3>Выезд нарколога на дом</h3>
+        <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении.</p>
+        <div class="price-button">
+          <span>от 3500 ₽</span>
+          <button class="btn btn-blue">Начать лечение</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Этапы лечения -->
+  <section class="stages">
+    <div class="container">
+      <h2>Этапы лечения</h2>
+      <div class="stage-steps">
+        <div class="step active">
+          <span>01</span>
+          <div class="step-line"></div>
+          <div class="step-icon">
+            <img src="img/icon-phone.svg" alt="Диагностика состояния">
+          </div>
+          <div class="step-text">Диагностика состояния</div>
+        </div>
+        <!-- Добавить ещё 4 шага аналогично -->
+      </div>
+    </div>
+  </section>
+
+  <!-- О клинике -->
+  <section class="about">
+    <div class="container">
+      <h2>О клинике</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Наши квалифицированные врачи и наркологи предлагают широкий спектр наркологических услуг...</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <img src="img/icon-user.svg" alt="Иконка">
+              <p>Квалифицированные врачи-наркологи</p>
+            </div>
+            <!-- Добавить ещё 3 пункта -->
+          </div>
+        </div>
+        <img src="img/doctor2.jpg" alt="Медперсонал" class="about-image">
+      </div>
+    </div>
+  </section>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
