@@ -30,54 +30,53 @@
     </div>
   </header>
 
-
 <section class="hero">
-
   <div class="container">
     <div class="hero-content">
       <h1>Срочный вызов врача-нарколога</h1>
-      <div class="features">
-        <div class="feature">
-          <img src="img/icon-check.svg" alt="Иконка">
-          <p>Сохраняем анонимность, не требуем паспорт и не ставим на учёт</p>
-        </div>
-        <div class="feature">
-          <img src="img/icon-check.svg" alt="Иконка">
-          <p>Помощь квалифицированного врача на дому</p>
-        </div>
-        <div class="feature">
-          <img src="img/icon-check.svg" alt="Иконка">
-          <p>Приедем на адрес за 20 минут</p>
-        </div>
-        <div class="feature">
-          <img src="img/icon-check.svg" alt="Иконка">
-          <p>Первичная консультация - бесплатно</p>
-        </div>
-      </div>
+
+      <ul class="features">
+        <li class="feature">
+          <img src="../image/mark.png" alt="Иконка">
+          <span>Сохраняем анонимность, не требуем паспорт и не ставим на учёт</span>
+        </li>
+        <li class="feature">
+          <img src="../image/mark.png" alt="Иконка">
+          <span>Помощь квалифицированного врача на дому</span>
+        </li>
+        <li class="feature">
+          <img src="../image/mark.png" alt="Иконка">
+          <span>Приедем на адрес за 20 минут</span>
+        </li>
+        <li class="feature">
+          <img src="../image/mark.png" alt="Иконка">
+          <span>Первичная консультация — бесплатно</span>
+        </li>
+      </ul>
 
       <div class="buttons">
         <button class="btn btn-blue open-modal">Получить помощь</button>
         <button class="btn btn-white open-modal">Заказать звонок</button>
       </div>
-
     </div>
   </div>
 </section>
 
+
 <div class="modal" id="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <h2>Оставьте ваши данные</h2>
-    <p>Мы вам перезвоним в ближайшее время</p>
+    <h2>Оставьте заявку</h2>
+    <p>Наш специалист свяжется с вами в течение 15 минут</p>
+    <div id="responseMessage" class="response"></div> 
     <form id="callbackForm">
-      <input type="text" name="name" placeholder="Ваше имя" required>
-      <input type="tel" name="phone" placeholder="Ваш телефон" required>
-      <button type="submit" class="btn btn-blue">Отправить</button>
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <button type="submit" class="btn btn-blue">Отправить заявку</button>
     </form>
   </div>
 </div>
-
-
 
 
 <section class="services">
@@ -152,41 +151,94 @@
   </div>
 </section>
 
-  <section class="stages">
-    <div class="container">
-      <h2>Этапы лечения</h2>
-      <div class="stage-steps">
-        <div class="step active">
-          <span>01</span>
-          <div class="step-line"></div>
-          <div class="step-icon">
-            <img src="img/icon-phone.svg" alt="Диагностика состояния">
-          </div>
-          <div class="step-text">Диагностика состояния</div>
+<section class="stages">
+  <div class="container">
+    <h2>Этапы лечения</h2>
+    <div class="stage-steps">
+      <div class="step active">
+        <span>01</span>
+        <div class="step-line"></div>
+        <div class="step-icon">
+          
         </div>
-        <!-- Добавить ещё 4 шага аналогично -->
+        <div class="step-text">Диагностика состояния</div>
       </div>
-    </div>
-  </section>
 
-  <section class="about">
-    <div class="container">
-      <h2>О клинике</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p>Наши квалифицированные врачи и наркологи предлагают широкий спектр наркологических услуг...</p>
-          <div class="about-features">
-            <div class="about-feature">
-              <img src="img/icon-user.svg" alt="Иконка">
-              <p>Квалифицированные врачи-наркологи</p>
-            </div>
-            <!-- Добавить ещё 3 пункта -->
-          </div>
+      <div class="step">
+        <span>02</span>
+        <div class="step-line"></div>
+        <div class="step-icon">
+          
         </div>
-        <img src="img/doctor2.jpg" alt="Медперсонал" class="about-image">
+        <div class="step-text">Составление плана лечения</div>
+      </div>
+
+      <div class="step">
+        <span>03</span>
+        <div class="step-line"></div>
+        <div class="step-icon">
+          
+        </div>
+        <div class="step-text">Снятие симптомов</div>
+      </div>
+
+      <div class="step">
+        <span>04</span>
+        <div class="step-line"></div>
+        <div class="step-icon">
+          
+        </div>
+        <div class="step-text">Восстановление организма</div>
+      </div>
+
+      <div class="step">
+        <span>05</span>
+        <div class="step-line"></div>
+        <div class="step-icon">
+          
+        </div>
+        <div class="step-text">Бесплатные консультации</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
+<section class="personnel">
+  <div class="container">
+    <h2>Медицинский персонал</h2>
+    <div class="personnel-slider">
+      <div class="personnel-card">
+        <img src="../image/doc3.jpg" alt="Меринов Артём Вячеславович">
+        <div class="personnel-info">
+          <h3>Меринов Артём Вячеславович</h3>
+          <p><strong>Специализация:</strong> Врач-Нарколог</p>
+          <p><strong>Опыт работы:</strong> 12 лет</p>
+        </div>
+      </div>
+      <div class="personnel-card">
+        <img src="../image/doc2.jpg" alt="Иванова Елена Петровна">
+        <div class="personnel-info">
+          <h3>Иванова Елена Петровна</h3>
+          <p><strong>Специализация:</strong> Психотерапевт</p>
+          <p><strong>Опыт работы:</strong> 8 лет</p>
+        </div>
+      </div>
+      <div class="personnel-card">
+        <img src="../image/doc1.jpg" alt="Смирнов Дмитрий Александрович">
+        <div class="personnel-info">
+          <h3>Смирнов Дмитрий Александрович</h3>
+          <p><strong>Специализация:</strong> Терапевт</p>
+          <p><strong>Опыт работы:</strong> 15 лет</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn prev">❮</button>
+      <button class="slider-btn next">❯</button>
+    </div>
+  </div>
+</section>
 
 <script src="../js/script.js"></script>
 </body>
