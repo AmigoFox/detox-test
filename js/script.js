@@ -68,3 +68,33 @@ if (form) {
     }
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        const toggle = item.querySelector('.faq-toggle');
+
+        question.addEventListener('click', function() {
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.querySelector('.faq-answer').style.display = 'none';
+                    otherItem.querySelector('.faq-question').classList.remove('active');
+                    otherItem.querySelector('.faq-toggle').textContent = '+';
+                }
+            });
+
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                question.classList.remove('active');
+                toggle.textContent = '+';
+            } else {
+                answer.style.display = 'block';
+                question.classList.add('active');
+                toggle.textContent = '−';
+            }
+        });
+    });
+});
