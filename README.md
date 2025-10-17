@@ -23,13 +23,13 @@
 
 В папке `screenshots` представлены изображения интерфейса сайта, показывающие порядок работы форм и элементов:  
 
-1. `screenshots/1.jpg` — Главная страница сайта  
-2. `screenshots/2.jpg` — Модальное окно с формой заявки  
-3. `screenshots/3.jpg` — Форма заполнена и готова к отправке  
-4. `screenshots/4.jpg` — Сообщение об успешной отправке заявки  
-5. `screenshots/5.jpg` — Аккордеон с часто задаваемыми вопросами  
-6. `screenshots/6.jpg` — Пример ошибки при некорректных данных  
-7. `screenshots/7.jpg` — Общий вид страницы с контентом
+1. ![detox-test](screenshots/1.jpg)  
+2. ![detox-test](screenshots/2.jpg)  
+3. ![detox-test](screenshots/3.jpg)  
+4. ![detox-test](screenshots/4.jpg)  
+5. ![detox-test](screenshots/5.jpg)  
+6. ![detox-test](screenshots/6.jpg)  
+7. ![detox-test](screenshots/7.jpg) 
    
 ## Технологии
 
