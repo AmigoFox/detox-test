@@ -24,12 +24,18 @@
 В папке `screenshots` представлены изображения интерфейса сайта, показывающие порядок работы форм и элементов:  
 
 1. ![detox-test](screenshots/1.jpg)  
+
 2. ![detox-test](screenshots/2.jpg)  
+
 3. ![detox-test](screenshots/3.jpg)  
-4. ![detox-test](screenshots/4.jpg)  
-5. ![detox-test](screenshots/5.jpg)  
-6. ![detox-test](screenshots/6.jpg)  
-7. ![detox-test](screenshots/7.jpg) 
+
+4. ![detox-test](screenshots/4.jpg) 
+ 
+5. ![detox-test](screenshots/5.jpg) 
+ 
+6. ![detox-test](screenshots/6.jpg) 
+ 
+7. ![detox-test](screenshots/7.jpg)
    
 ## Технологии
 
